@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "title": "Architecting Scalable Microservices",
+    "speakers": ["Alice Johnson"],
+    "categories": ["Backend", "Architecture"],
+    "startTime": "10:00",
+    "endTime": "11:00",
+    "description": "Explore the principles of building robust and scalable microservices architectures using modern patterns and tools."
+  },
+  {
+    "id": 2,
+    "title": "The Future of Web Components",
+    "speakers": ["Bob Smith", "Charlie Davis"],
+    "categories": ["Frontend", "Web Standards"],
+    "startTime": "11:10",
+    "endTime": "12:10",
+    "description": "A deep dive into the evolution of Web Components and how they are changing the landscape of frontend development."
+  },
+  {
+    "id": 3,
+    "title": "Machine Learning in Production",
+    "speakers": ["Elena Rodriguez"],
+    "categories": ["AI", "DevOps"],
+    "startTime": "12:20",
+    "endTime": "13:20",
+    "description": "Practical insights into deploying and managing machine learning models in a high-scale production environment."
+  },
+  {
+    "id": "lunch",
+    "title": "Lunch Break",
+    "speakers": [],
+    "categories": ["Break"],
+    "startTime": "13:20",
+    "endTime": "14:20",
+    "description": "Network with other attendees and enjoy a catered lunch."
+  },
+  {
+    "id": 4,
+    "title": "Securing Your Cloud Infrastructure",
+    "speakers": ["Frank Miller"],
+    "categories": ["Security", "Cloud"],
+    "startTime": "14:20",
+    "endTime": "15:20",
+    "description": "Best practices for implementing security at every layer of your cloud infrastructure to protect against evolving threats."
+  },
+  {
+    "id": 5,
+    "title": "Advanced TypeScript Patterns",
+    "speakers": ["Grace Hopper", "Henry Ford"],
+    "categories": ["TypeScript", "Frontend"],
+    "startTime": "15:30",
+    "endTime": "16:30",
+    "description": "Unlock the full power of TypeScript with advanced type patterns and utility functions to write cleaner, safer code."
+  },
+  {
+    "id": 6,
+    "title": "High-Performance Data Processing",
+    "speakers": ["Ivy Chen"],
+    "categories": ["Data", "Backend"],
+    "startTime": "16:40",
+    "endTime": "17:40",
+    "description": "Strategies and techniques for processing massive datasets efficiently using parallel processing and optimized algorithms."
+  }
+]

@@ -1,0 +1,77 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.schedule-timeline {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.talk-card {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    border-left: 5px solid #0d6efd;
+    transition: transform 0.2s, box-shadow 0.2s;
+    position: relative;
+}
+
+.talk-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+}
+
+.talk-card.lunch-break {
+    border-left-color: #ffc107;
+    background-color: #fffbeb;
+}
+
+.time-badge {
+    font-weight: bold;
+    color: #495057;
+    font-size: 0.9rem;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.category-badge {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.6rem;
+    border-radius: 20px;
+    background-color: #e9ecef;
+    color: #495057;
+    margin-right: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.speaker-name {
+    color: #6c757d;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.transition-marker {
+    text-align: center;
+    color: #adb5bd;
+    font-size: 0.8rem;
+    margin: -1rem 0 1rem 0;
+    position: relative;
+}
+
+.transition-marker::before,
+.transition-marker::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 30%;
+    height: 1px;
+    background-color: #dee2e6;
+}
+
+.transition-marker::before { left: 10%; }
+.transition-marker::after { right: 10%; }
